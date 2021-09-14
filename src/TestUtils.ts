@@ -3,13 +3,10 @@ import {
     Operation,
     Observable,
     NextLink,
-} from '@apollo/client/core';
+} from '@collapp/apollo-client/core';
 import {
     ExecutionResult,
 } from 'graphql';
-import {
-    ExecutionResultDataDefault,
-} from 'graphql/execution/execute';
 
 export interface ObservableValue {
     value?: ExecutionResult | Error;

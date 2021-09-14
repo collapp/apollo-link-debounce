@@ -1,12 +1,12 @@
 {
   "name": "@collapp/apollo-link-debounce",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "An Apollo Link to debounce requests",
   "peerDependencies": {
-    "@apollo/client": "^3.0.0"
+    "@collapp/apollo-client": "^3.0.0"
   },
   "devDependencies": {
-    "@apollo/client": "^3.0.0",
+    "@collapp/apollo-client": "^3.0.0",
     "@types/graphql": "^0.13.0",
     "@types/jest": "^23.1.4",
     "@types/node": "^13.13.2",
