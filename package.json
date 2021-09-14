@@ -1,5 +1,5 @@
 {
-  "name": "apollo-link-debounce",
+  "name": "@collapp/apollo-link-debounce",
   "version": "3.0.0",
   "description": "An Apollo Link to debounce requests",
   "peerDependencies": {
@@ -23,7 +23,7 @@
   "module": "build/dist/index.js",
   "repository": {
     "type": "git",
-    "url": "helfer/apollo-link-debounce"
+    "url": "collapp/apollo-link-debounce"
   },
   "jsnext:main": "build/dist/index.js",
   "typings": "build/dist/index.d.ts",
@@ -32,7 +32,7 @@
     "lint": "tslint src/*.ts* src/**/*.ts*",
     "test": "react-scripts-ts test --coverage --collectCoverageFrom=src/**/*.ts* --collectCoverageFrom=!src/index.ts --collectCoverageFrom=!src/TestUtils.ts && yarn run lint",
     "testonly": "react-scripts-ts test --env=jsdom",
-    "prepack": "yarn run build",
+    "prepack": "npm run build",
     "coverage": "codecov -f coverage/*.json"
   },
   "keywords": [
